@@ -24,7 +24,7 @@ public class PerimeterAssignmentRunner {
         FileResource fr = new FileResource();
         Shape s = new Shape(fr);
         double length = getPerimeter(s);
-        double numpoints = getNumPoints(s); 
+       
         System.out.println("perimeter = " + length);}
         
      //main class
